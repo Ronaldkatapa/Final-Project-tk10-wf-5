@@ -10,7 +10,7 @@
   --plain: #fff;
 
   /* Padding and Spacing */
-  --padding-large: 2rem;
+  --padding-large: 4.5rem;
   --padding-medium: 1rem;
   --padding-small: 0.5rem;
   --padding-xsmall: 0.3rem;
@@ -24,6 +24,7 @@
   /* Font Sizes */
   --font-large: 3rem;
   --font-medium: 1.5rem;
+  --font-medium-2: 2.4rem;
   --font-small: 1rem;
   --font-xsmall: 0.6rem;
 
@@ -59,9 +60,9 @@ html {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: var(--padding-large);
+  padding: var(--padding-medium);
 }
 
 h1 {
@@ -70,8 +71,8 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-medium);
-  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-medium-2);
+  font-weight: var(--font-weight-bold);
 }
 
 p {
@@ -95,13 +96,18 @@ p {
 
 /* Navbar Styling */
 
-nav {
+header {
   background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: var(--box-shadow);
 }
 
 header img {
   display: inline-block;
-  height: 120px;
+  height: 40px;
   vertical-align: top;
   width: 120px;
 }
@@ -125,7 +131,7 @@ header img {
   color: var(--text-color);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -141,6 +147,8 @@ a{
 
 /* Hero Section Styling */
 .hero {
+  padding: var(--padding-large) 0;
+  margin-top: var(--margin-large);
   background-color: var(--background-color);
 }
 
@@ -176,7 +184,7 @@ a{
   align-items: center;
   font-size: var(--font-small);
   font-weight: var(--font-weight-semibold);
-  padding: var(--padding-small) var(--padding-large);
+  padding: var(--padding-small) 0;
   border-radius: var(--border-radius);
   cursor: pointer;
   color: var(--text-color);
@@ -248,4 +256,23 @@ a{
 .pr-title {
   font-size: var(--font-medium);
   font-weight: var(--font-weight-bold);
+}
+
+
+/* why-learn */
+
+
+.why-learn {
+  padding: var(--padding-large) 0;
+  margin: var(--padding-large) 0;
+}
+
+.why-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-text-wrapper {
+  max-width: 40%;
 }
