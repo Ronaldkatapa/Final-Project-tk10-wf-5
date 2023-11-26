@@ -9,9 +9,13 @@
 
 This is an online learning website that offers variety of courses
 
-## Tools used to biuld
+## Tools used to build
 
 this website was build with only 2 web devlopment tool which are HTML and CSS
+### Pages in total are 3
+- Home
+- Courses
+- Mentors
 
 And it is hosted on Netlify
 
