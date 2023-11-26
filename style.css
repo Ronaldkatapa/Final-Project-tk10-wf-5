@@ -42,7 +42,9 @@
 }
 
 /* Default Settings */
-html {
+
+html,
+body {
   font-family: var(--font-family);
   color: var(--text-color);
   margin: 0;
@@ -65,6 +67,7 @@ h2 {
   font-size: var(--font-medium-2);
   font-weight: var(--font-weight-bold);
 }
+
 h3 {
   font-size: var(--font-medium);
   font-weight: var(--font-weight-bold);
@@ -278,9 +281,10 @@ a {
 
 .courses {
   background-color: var(--background-color);
+  padding: var(--padding-large) 0;
 }
 
-.card-wrapper{
+.card-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -312,7 +316,75 @@ a {
   align-items: center;
 }
 
-.card-text div span{
+.card-text div span {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-medium);
+}
+
+
+/* testimonial */
+
+
+footer,
+.testimonial {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  padding: var(--padding-large) 0;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.comment {
+  font-style: italic;
+  font-weight: var(--font-weight-semibold);
+  color: #857c9c;
+}
+
+.btn {
+  max-width: 100px !important;
+}
+
+
+/* learners-outcome and mentors*/
+
+.learners-outcome,
+.mentors {
+  padding: var(--padding-large) 0;
+}
+
+.mentors {
+  background-color: var(--background-color);
+}
+
+/* Footer */
+
+footer {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: var(--padding-medium) 0 !important;
+  line-height: 2.7;
+}
+
+footer  a{
+  color: var(--background-color);
+}
+
+.lower-footer {
+  border-top: 1px solid #5d5d6f;
+  padding-top: var(--padding-medium) 0;
+}
+
+.lower-footer p{
+  font-size: var(--font-small);
+  font-weight: var(--font-weight-semibold);
+  color: #aeaec7;
 }

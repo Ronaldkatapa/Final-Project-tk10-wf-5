@@ -1,10 +1,18 @@
 # Final Project
-
+- ## LEAN.ONLINE
 
 ## Project Authors
-- [Ronald Katapa]
-- [Your name here]
-- [Your name here]
+- Ronald Katapa
+
 
 ## Description
-[Any notes you'd like people to know about your project]
+
+This is an online learning website that offers variety of courses
+
+## Tools used to biuld
+
+this website was build with on 2 web devlopment tool which are HTML and CSS
+
+And it is hosted on Netlify
+
+## Live website link
