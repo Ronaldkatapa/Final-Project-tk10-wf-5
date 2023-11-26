@@ -65,10 +65,15 @@ h2 {
   font-size: var(--font-medium-2);
   font-weight: var(--font-weight-bold);
 }
+h3 {
+  font-size: var(--font-medium);
+  font-weight: var(--font-weight-bold);
+}
 
 p {
   padding: var(--padding-medium) 0;
   font-size: var(--font-medium);
+  max-width: 600px;
 }
 
 .btn-1,
@@ -266,4 +271,48 @@ a {
 
 .why-text-wrapper {
   max-width: 40%;
+}
+
+/* courses */
+
+
+.courses {
+  background-color: var(--background-color);
+}
+
+.card-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  max-width: 400px;
+}
+
+.card-img img {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  max-width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-text {
+
+  padding: var(--padding-medium);
+}
+
+.card-text div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-text div span{
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-medium);
 }
