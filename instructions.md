@@ -1,11 +1,10 @@
 # Instructions
 
-👥 **This is a team project**. You can work with teammates you’ve worked with before, or find new teammates. You should form a team with a maximum of 3 teammates to work on your project. 
+👥 **This is a team project**. You can work with teammates you’ve worked with before, or find new teammates. You should form a team with a maximum of 3 teammates to work on your project.
 
 Your team will have to agree on a project idea. If you have a firm idea of what you want to build, make sure to tell your partners before you decide to join the team together.
 
 If you cannot or do not wish to work with a teammate, you may work on the project alone. If you have trouble finding a partner, or have trouble with the project, use the #help-web channel in Discord.
-
 
 ## Topic and Design Guidelines
 
