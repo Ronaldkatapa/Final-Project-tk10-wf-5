@@ -5,6 +5,8 @@
 ## Project Authors
 
 - Ronald Katapa
+- Shane Roberts
+- Aregbesola Kehinde
 
 ## Description
 
